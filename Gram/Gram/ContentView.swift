@@ -36,7 +36,7 @@ struct LoginView: View {
                     .padding(15.0)
                     .cornerRadius(10.0)
                     .background(content: {
-                        RoundedRectangle(cornerRadius: 10.0)
+                    RoundedRectangle(cornerRadius: 10.0)
                             .fill(Color(red: 200, green: 200, blue: 200))
                             .stroke(Color.gray)
                     })
